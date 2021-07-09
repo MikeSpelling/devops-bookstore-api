@@ -15,6 +15,6 @@ workflows:
           login-server-name: devopsupskillregistryyvqem.azurecr.io
           registry-name: devopsupskillregistryyvqem
           repo: devops-bookstore-api
-          tag: '2.0'
+          tag: '2.1'
           requires:
             - "python/test"

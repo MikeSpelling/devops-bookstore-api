@@ -9,7 +9,7 @@ CORS(app)
 api = Api(app)
 
 metrics = RESTfulPrometheusMetrics(app, api)
-metrics.info('app_info', 'Application info', version='1.1', app_name='devops-bookstore-api')
+metrics.info('app_info', 'Application info', version='2.0', app_name='devops-bookstore-api')
 
 # A List of Dicts to store all of the books
 books = [{
@@ -31,10 +31,10 @@ books = [{
         "bookAuthors" : "Betsy Beyer, Chris Jones, Jennifer Petoff"
     },
     {
-        "bookTitle": "The Northern Lights" ,
+        "bookTitle": "The Northern Lights 2" ,
         "bookImage": "https://images-na.ssl-images-amazon.com/images/I/51puz05luHL._SX326_BO1,204,203,200_.jpg",
-        "bookDescription": "An awesome book",
-        "bookAuthors" : "Philip Pullman"
+        "bookDescription": "Another awesome book",
+        "bookAuthors" : "Philip Pullman 2"
     }
 ]
 
